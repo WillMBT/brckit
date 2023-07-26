@@ -1,0 +1,179 @@
+*{
+    font-family: 'Inter', sans-serif;
+   
+    margin-left: 0px;
+    margin-top: 0px;
+    
+  }
+  
+  h1{
+    position: absolute;
+    left: 400px;
+    top: 250px;
+    color: white;
+    font-size: 75px;
+  }
+  
+  
+  
+  
+  .parallax {
+    /* The image used */
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("webdev.jpg");
+    position: absolute;
+    left: 0px;
+    /* Set a specific height */
+    min-height: 500px;
+    width: 1440px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .About,.market,.ad,.web{
+  top: 42px;
+    position: absolute;
+    color: #8A8A8A;
+    font-size: 25px;
+    text-decoration:none;
+    
+    word-wrap: break-word;
+  }
+  
+  .About {
+    
+    left: 557px;
+   
+    
+    
+  }
+  
+  .web {
+    
+    left: 970px;
+    color: #4D7DFA;
+  }
+  .About:hover, .web:hover, .ad:hover, .market:hover {
+    
+    color: #6b6b6b;
+  }
+  
+  .ad {
+    
+    left: 801px;
+    
+  }
+  
+  
+  
+  .market {
+    
+    left: 651px;
+   
+  }
+  
+  
+  .desktop1
+  {
+      margin-bottom: 50px;
+      padding: 10px; 
+      background-color: white; 
+      justify-content: flex-start; 
+      align-items: flex-start; 
+      gap: 10px; 
+      display: inline-flex;
+      width:1440px;
+      
+  }
+  
+  
+  .banner
+  {
+      width: 1440px; 
+      height: 114px; 
+      left: 0px; 
+      top: 0px; 
+      position: absolute; 
+      background-color: #EEEEEE;
+  }
+  
+  .robutton {
+      width: 150px;
+      height: 42px;
+      left: 1210px;
+      top: 30px;
+      position: absolute;
+      background-color: #4D7DFA;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 5px;
+      border: none;
+      text-decoration: none;
+      color: white;
+      font-size: 25px;
+      padding-left: 20px;
+      padding-top: 10px;
+    }
+    .robutton:hover{
+      background-color: #4774e7;
+      box-shadow: none;
+    }
+  
+    
+    
+    .name {
+      width: 387px;
+      height: 68px;
+      left: 15px;
+      top: 21px;
+      position: absolute;
+      color: black;
+      font-size: 50px;
+      
+      
+      word-wrap: break-word;
+    }
+    
+    
+    
+    
+    
+    .abt {
+      background-color: white;
+      
+      left: 475px;
+      top: 564px;
+      position: absolute;
+      text-align: center;
+      color: black;
+      font-size: 35px;
+      
+      
+      word-wrap: break-word;
+    }
+    
+    .under1 {
+      width: 68px;
+      height: 7px;
+      left: 686px;
+      top: 617px;
+      position: absolute;
+      background: black;
+      border-radius: 5px;
+    }
+    
+    .desc1{
+      width: 1133px;
+      height: 319px;
+      left: 153px;
+      top: 653px;
+      position: absolute;
+      text-align: center;
+      color: black;
+      font-size: 20px;
+      
+      
+      word-wrap: break-word;
+    }
+    

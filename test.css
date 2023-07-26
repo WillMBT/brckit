@@ -1,0 +1,32 @@
+.desktop1
+{
+    width: 1080px; 
+    height: 1024px; 
+    padding: 10px; 
+    background-color: white; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 10px; 
+    display: inline-flex;
+}
+
+.brckt
+{
+    width: 184px; 
+    height: 79px; 
+    color: black; 
+    font-size: 35px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+
+.rectangle1
+{
+    width: 1492px; 
+    height: 114px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background-color: #EEEEEE;
+}
