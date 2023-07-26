@@ -1,0 +1,259 @@
+*{
+    font-family: 'Inter', sans-serif;
+    
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.About,.market,.ad,.web{
+    top: 42px;
+      position: absolute;
+      color: #8A8A8A;
+      font-size: 25px;
+      text-decoration:none;
+      animation: moveup 1s linear;
+      word-wrap: break-word;
+    }
+    
+    .About {
+      
+      left: 557px;
+     
+      color: #4D7DFA;
+      
+    }
+    
+    .web {
+      
+      left: 970px;
+      
+    }
+    .About:hover, .web:hover, .ad:hover, .market:hover {
+      
+      color: #6b6b6b;
+    }
+    
+    .ad {
+      
+      left: 801px;
+      
+    }
+    
+    
+    
+    .market {
+      
+      left: 651px;
+     
+    }
+    
+    
+    .desktop1
+    {
+        margin-bottom: 50px;
+        padding: 10px; 
+        background-color: white; 
+        justify-content: flex-start; 
+        align-items: flex-start; 
+        gap: 10px; 
+        display: inline-flex;
+        width:1440px;
+        
+    }
+    
+    
+    .banner
+    {
+        width: 1440px; 
+        height: 114px; 
+        left: 0px; 
+        top: 0px; 
+        position: absolute; 
+        background-color: #EEEEEE;
+    }
+    
+    .robutton {
+        width: 150px;
+        height: 42px;
+        left: 1210px;
+        top: 30px;
+        position: absolute;
+        background-color: #4D7DFA;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+        border: none;
+        text-decoration: none;
+        color: white;
+        font-size: 25px;
+        padding-left: 20px;
+        padding-top: 10px;
+        animation: moveup 1s linear;
+      }
+      .robutton:hover{
+        background-color: #4774e7;
+        box-shadow: none;
+      }
+    
+      
+      
+      .name {
+        width: 387px;
+        height: 68px;
+        left: 15px;
+        top: 21px;
+        position: absolute;
+        color: black;
+        font-size: 50px;
+        animation: moveup 1s linear;
+        
+        word-wrap: break-word;
+      }
+      
+      .abt {
+        
+        
+        position: relative;
+        text-align: center;
+        color: black;
+        font-size: 35px;
+        
+        
+        word-wrap: break-word;
+      }
+
+      .under1 {
+        width: 68px;
+        height: 7px;
+        left: 466px;
+        top: 10px;
+        position: relative;
+        background: black;
+        border-radius: 5px;
+        
+      }
+
+      
+
+
+ .container {
+    text-align: center;
+    
+    margin: 0 auto;
+    background-color: #EEEEEE;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 25px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+    font-size: 20px;
+    position: absolute;
+    top: 175px;
+    left: 250px;
+    width: 1000px;
+    height: 700px;
+}
+  
+  h1 {
+    text-align: center;
+    
+    font-size: 45px;
+    
+  }
+  
+  .contact-form{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 15px;
+    color: black;
+    position: relative;
+    top: 10px;
+    font-size: 30px;
+    
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form input[type="email"]
+
+  {
+    width: 350px;
+    position: relative;
+    top: 10px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    border-radius: 10px;
+    padding-right:50px;
+    font-size: 15px;
+    border: none;
+    margin-bottom: 15px;
+    font-family: 'Inter', sans-serif;
+    padding-left: 5px;
+    
+  }
+
+  .contact-form textarea[name="message"]
+  {
+    width: 350px;
+    position: relative;
+    top: 10px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    border-radius: 10px;
+    padding-right:50px;
+    padding-left: 5px;
+    font-size: 15px;
+    border: none;
+    margin-bottom: 15px;
+    font-family: 'Inter', sans-serif;
+    height: 200px;
+    padding-top: 10px;
+  }
+
+
+  @keyframes moveup {
+    0%{
+     transform: translateY(25px);
+     opacity: 0;
+    }
+
+    33%{
+     transform: translateY(17px);
+     opacity: 0.33;
+    }
+    66%{
+     transform: translateY(8px);
+     opacity: 0.66
+     
+    }
+    100%{
+     transform: translateY(0px);
+     opacity: 1;
+    }
+ }
+
+.container input[submit]{
+    width: 240px;
+    height: 60px;
+    position: relative;
+    top: 15px;
+    text-decoration: none;
+    
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    background-color: #4D7DFA;
+    border-radius: 5px;
+    left: -5px;
+    word-wrap: break-word;
+   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+   padding-bottom: 5px;
+   border: none;
+  }
+
+button:hover{
+    background-color: #4774e7;
+    box-shadow: none;
+}
